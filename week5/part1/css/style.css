@@ -1,0 +1,14 @@
+/* !--
+Name: A Ali
+File: Style.css
+Date: 06 JAN 2026
+A .css file for week 4 assignment "HTML Multimedia and Tables".
+-- */
+
+html {
+  background-color: white;
+}
+
+body {
+  font: 1.2em / 1.5 system-ui;
+}
