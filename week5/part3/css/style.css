@@ -32,19 +32,23 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  
    /* Solution: Display <article> and <aside> as two flexible
   columns, with <article> three times the width of <aside>,
   and a 20px gap */
+  
   display: grid;
-  grid-templete-colums: 3fr 1fr;
+  grid-template-columns: 3fr 1fr;
   gap: 20px;
 }
 
 nav {
   background-color: black;
   padding: 0.5em;
+  
     /* Solution: Make navigation bar scroll with content normally but
   then stick to top of viewport */
+  
   top: 0;
   position: sticky;
 }
@@ -53,8 +57,10 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  
   /* Solution: Display the navigation items in a row with equal space
   in between and less space at the ends  */
+  
   display: flex;
   justify-content: space-around;
 }
